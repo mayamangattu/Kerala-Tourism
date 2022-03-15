@@ -3,14 +3,14 @@
     margin:0;
 }
 
-
+@media all{
 .home{
     background-image : url('../images/home.jpg');
        height: 500px;
            width:112%;             
-         /* margin-left:10px;
-         margin-right:10px;  */
-}
+         /* margin-left:10px;*/
+         margin-right:0;  
+        }
 
 .container{
     margin-left:12px;
@@ -82,7 +82,7 @@ h4{
 }
 
 .kerala{
-    background-image : url('../images/kerala.jpg');
+    background-image : url('/images/kerala.jpg');
          height: 300px;
            width:80%;                
          /* margin-left:10px;
@@ -96,4 +96,5 @@ h4{
     /* margin-right: 8px; */
     font-size:28px;
 
+}
 }
