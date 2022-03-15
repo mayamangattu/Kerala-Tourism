@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+.home{
+    background-image : url('../images/home.jpg');
+       height: 500px;
+           width:112%;             
+         /* margin-left:10px;
+         margin-right:10px;  */
+}
+
+.container{
+    margin-left:12px;
+    margin-right:2px; 
+}
+
+.logo{
+     margin-top: 49px;
+     margin-left: 50px;
+    width: 120px;
+    height :75px;
+}
+
+header{
+    background-color:rgba(216, 209, 209, 0.918);
+    height:3em;
+}
+
+.head-tag{
+    float:right;
+    margin-top: 10px;
+    margin-right: 55px;
+   
+}
+.head-tag a{
+    text-decoration: none;
+    color:rgb(4, 116, 88);
+    border     :3px solid rgb(167, 167, 168);
+    margin-right: 8px;
+    margin-bottom: 2px;
+    font-size:24px;
+
+}
+
+.head-tag a:hover{
+    background-color:rgb(4, 134, 101);
+     color:black; 
+    transition:0.5s;
+    
+}
+
+.hotspot{
+    margin-top: 20%
+}
+
+.things-to-do{
+    margin-top: 20%
+}
+
+.text{
+    position:static;
+    margin-left: 25%;
+    color:rgb(7, 7, 112);
+    /* top:50px;
+    bottom:5px; */
+}
+
+.heading{
+    margin-left: 50%;
+    color:brown;
+}
+
+h3{
+    color:brown;
+}
+
+h4{
+    color: rgb(4, 134, 101);
+}
+
+.kerala{
+    background-image : url('../images/kerala.jpg');
+         height: 300px;
+           width:80%;                
+         /* margin-left:10px;
+         margin-right:10px;  */
+}
+
+.kerala a{
+    /* text-decoration: none; */
+    color:rgb(167, 6, 19);
+    /* border     :3px solid black; */
+    /* margin-right: 8px; */
+    font-size:28px;
+
+}

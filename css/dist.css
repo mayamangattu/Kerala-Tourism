@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.ksgd {
+  background-image: url("../images/ksgd/kasaragod.jpg");
+  height: 580px;
+  width: 112%;
+}
+
+.knr {
+  background-image: url("../images/knr/kannur.jpg");
+  height: 580px;
+  width: 112%;
+}
+
+.kkd {
+  background-image: url("../images/kkd/kozhikode.jpg");
+  height: 580px;
+  width: 112%;
+}
+
+.mlpm {
+  background-image: url("../images/mlpm/malappuram.jpg");
+  height: 580px;
+  width: 112%;
+}
+
+.wnd {
+  background-image: url("../images/wnd/wayanad.jpg");
+  height: 580px;
+  width: 112%;
+}
+
+.container {
+  margin-left: 12px;
+  margin-right: 6px;
+}
+
+.logo {
+  margin-top: 49px;
+  margin-left: 50px;
+  width: 120px;
+  height: 75px;
+}
+
+header {
+  background-color: rgba(216, 209, 209, 0.918);
+  height: 4em;
+}
+
+.head-tag {
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.head-tag a {
+  text-decoration: none;
+
+  color: rgb(4, 4, 77);
+  border: 3px solid rgb(167, 167, 168);
+  margin-right: 8px;
+  /* margin-top: 38px; */
+  font-size: 20px;
+  padding: 2px;
+}
+
+.head-tag a:hover {
+  background-color: rgb(4, 134, 101);
+  color: black;
+  transition: 0.5s;
+}
+
+h1 {
+  font-size: 90px;
+  color: brown;
+  font-style: italic;
+}
+
+.text {
+  position: static;
+  margin-left: 25%;
+  color: brown;
+  /* color: rgb(7, 7, 112); */
+  /* top:50px;
+            bottom:5px; */
+}
