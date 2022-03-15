@@ -3,7 +3,7 @@
     margin:0;
 }
 
-@media all{
+@media screen{
 .home{
     background-image : url('../images/home.jpg');
        height: 500px;
