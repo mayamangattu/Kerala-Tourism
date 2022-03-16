@@ -30,7 +30,7 @@
 }
 
 .wnd {
-  background-image: url("wayanad.jpg");
+  background-image: url("..images/wayanad.jpg");
   height: 580px;
   width: 112%;
 }
