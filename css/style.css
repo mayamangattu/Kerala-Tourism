@@ -82,7 +82,7 @@ h4{
 }
 
 .kerala{
-    background-image : url('/images/kerala.png');
+    background-image : url('./images/kerala.png');
          height: 300px;
            width:80%;                
          /* margin-left:10px;
