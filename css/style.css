@@ -13,20 +13,21 @@
         }
 
 .container{
-    margin-left:12px;
-    margin-right:2px; 
+    /* margin-left:12px;
+    margin-right:2px;  */
 }
 
 .logo{
-     margin-top: 49px;
+     /* margin-top: 49px;
      margin-left: 50px;
-    width: 120px;
-    height :75px;
+    width: 120px;*/
+    height :55px; 
 }
 
 header{
-    background-color:rgba(216, 209, 209, 0.918);
-    height:3em;
+    background-color:rgb(160, 160, 7);
+    /* rgba(216, 209, 209, 0.918) */
+    height:5em;
 }
 
 .head-tag{
@@ -78,6 +79,10 @@ h3{
 }
 
 h4{
+    color:rgb(69, 42, 165);
+}
+
+h5{
     color: rgb(4, 134, 101);
 }
 
