@@ -41,21 +41,22 @@
 }
 
 .logo {
-  margin-top: 49px;
+  /* margin-top: 49px;
   margin-left: 50px;
-  width: 120px;
-  height: 75px;
+  width: 120px; */
+  height: 55px;
 }
 
-header {
-  background-color: rgba(216, 209, 209, 0.918);
-  height: 4em;
+header{
+  background-color:rgb(160, 160, 7);
+  /* rgba(216, 209, 209, 0.918) */
+  height:5em;
 }
 
 .head-tag {
   float: right;
   margin-top: 10px;
-  margin-right: 5px;
+  margin-right: 55px;
 }
 
 .head-tag a {

@@ -3,14 +3,14 @@
     margin:0;
 }
 
-@media screen{
+/* @media screen{
 .home{
     background-image : url('../images/home.jpg');
-       height: 500px;
+       height: 4800px;
            width:112%;             
          /* margin-left:10px;*/
-         margin-right:0;  
-        }
+         /* margin-right:0;  
+         */ */
 
 .container{
     /* margin-left:12px;
@@ -101,5 +101,4 @@ h5{
     /* margin-right: 8px; */
     font-size:28px;
 
-}
 }

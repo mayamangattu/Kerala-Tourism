@@ -1,0 +1,31 @@
+form{
+    margin-left: 2em;
+    margin-top: 2em;
+    padding:2em;
+       box-sizing:border-box;
+       background-color: aquamarine;
+       border:4px solid red;
+      width:30%;
+      height:70%;
+      /* border:10px solid black; */
+      align-content:center;
+      align-items: center;
+    }
+    
+    .login{
+      background-image: url("../images/kkd/kozhikode.jpg");
+      height: 680px;
+      width: 100%;
+    }
+    #text{
+      font-family:'Lucida Sans' ;
+      color:rgb(7, 7, 138);
+      font-size: 20px;
+    }
+    h3{
+      color:rgb(7, 7, 138);
+    }
+    h5{
+      color:blue
+    }
+    
