@@ -1,6 +1,6 @@
 
 function validate(){
-  
+
   let username=document.getElementById('username');
   let password=document.getElementById('password');
   let cpassword=document.getElementById('cpassword');
@@ -30,10 +30,39 @@ function validate(){
 
   document.getElementById('passworderror').innerHTML="";
 }else{
-  document.getElementById('passworderror').innerHTML="**Password is invalid";
+  document.getElementById('passworderror').innerHTML="**Password must contain at least 6 characters and should contain at least one uppercase,lowercase,number and special character";
   return false;
 
 }
+
+
+if(password.value.length<5){
+  document.getElementById('passworderror').innerHTML="**password length must be greater than 6 characters";
+  return false;
+}
+if(password.value.length>25){
+  document.getElementById('passworderror').innerHTML="**password length must be less than 25 characters";
+  return false;
+}
+
+
+
+
+if (cpassword.value.match(passwordformat)){
+
+  document.getElementById('cpassworderror').innerHTML="";
+}else{
+  document.getElementById('cpassworderror').innerHTML="**Password is invalid";
+  return false;
+
+}
+
+if(cpassword.value!=password.value){
+  document.getElementById('cpassworderror').innerHTML="**passwords are not same";
+  return false;
+}
+
+
 
 
 
